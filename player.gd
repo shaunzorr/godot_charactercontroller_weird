@@ -62,7 +62,6 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("crouch"):
 		current_speed = CROUCHING_SPEED
-		#TODO add crouching shit here - different collision shape for crouching/ ray casting to prevent glitching into roof etc.
 	else:
 		if Input.is_action_pressed("sprint"):
 			current_speed = SPRINTING_SPEED
